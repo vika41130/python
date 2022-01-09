@@ -10,7 +10,7 @@ import csv
 # password = input("Type your password and press enter: ")
 subject = "An email with attachment from Python"
 body = "This is an email with attachment sent from Python"
-password = "1058AM@gm"
+password = "***"
 sender_email = "mailt6246@gmail.com"
 receiver_email = "vika41130@gmail.com"
 
