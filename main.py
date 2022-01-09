@@ -8,7 +8,7 @@ from sendgrid.helpers.mail import Content, Email, Mail
 #     apikey=os.environ.get("SENDGRID_API_KEY")
 # )
 # sg = sendgrid.SendGridAPIClient(
-#     api_key="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"
+#     api_key=""
 # )
 # from_email = Email(email="mailt6246@gmail.com")
 # to_email = Email(email="vika41130@gmail.com")
