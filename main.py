@@ -1,5 +1,4 @@
-# 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
-# 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
+
 
 import os
 import sendgrid
@@ -27,7 +26,7 @@ message = Mail(
     html_content='<strong>and easy to do anywhere, even with Python</strong>')
 try:
     # sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
-    sg = sendgrid.SendGridAPIClient("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")
+    sg = sendgrid.SendGridAPIClient("")
     response = sg.send(message)
     print(response.status_code)
     print(response.body)
